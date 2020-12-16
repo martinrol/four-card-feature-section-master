@@ -6,6 +6,7 @@
     --veryDarkBlue: hsl(234, 12%, 34%);
     --grayishBlue: hsl(229, 6%, 66%);
     --veryLightGray: hsl(0, 0%, 98%);
+    --made-by: rgb(255, 152, 0);
 }
 
 * {
@@ -17,4 +18,130 @@
 html {
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
+}
+
+/* ------------------------------------------------ */
+
+.container {
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    background-color: var(--veryLightGray);
+}
+
+.container__main {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0 25px 0;
+}
+
+
+.container__main--header {
+    width: 90%;
+    margin: 0 auto;
+    height: max-content;
+    text-align: center;
+}
+
+.container__main--header h1 {
+    font-size: 1.9rem;
+    font-weight: 400;
+    color: var(--grayishBlue);
+}
+
+.container__main--header h1 span {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--veryDarkBlue);
+}
+
+.container__main--header p {
+    margin: 10px 0 60px 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--grayishBlue);
+}
+
+
+.container__main--cards {
+    width: 90%;
+    height: max-content;
+    margin: 0 auto;
+}
+
+.container__main--cards-item {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--veryLightGray);
+    box-shadow: 0px 0px 10px 0px #ADA3AD;
+    border-radius: 6px;
+}
+
+.color-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.line-green {
+    background-color: var(--cyan);
+}
+.line-red {
+    background-color: var(--red);
+}
+.line-orange {
+    background-color: var(--orange);
+}
+.line-blue {
+    background-color: var(--blue);
+}
+
+.container__main--cards-item h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--veryDarkBlue);
+}
+
+.container__main--cards-item p {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--grayishBlue);
+}
+
+.container__main--cards-item figure {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container__main--cards-item figure img {
+    width: 45px;
+    height: 45px;
+}
+
+
+.made-by {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.made-by p,
+.made-by a {
+    color: var(--pale-Blue);
+}
+
+.made-by a {
+    text-decoration: none;
+    border-bottom: 2px solid var(--made-by);
+    transition: all .2s ease 0s;
+}
+
+.made-by a:hover {
+    color: var(--made-by);
+    border-bottom: none;
 }
