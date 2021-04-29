@@ -18,11 +18,15 @@ To run this project or you want to modify something, you needed the next points
 
 ## Installation - How to clone 🚀
 
-To install and run this project with ++git clone++ just type in your console and execute
+To install and run this project with __git clone__ just type in your console and execute
 - With HTTPS
-`https://github.com/mxrold/four-card-feature-section.git`
+~~~
+https://github.com/mxrold/four-card-feature-section.git
+~~~
 - With SSH
-`git@github.com:mxrold/four-card-feature-section.git`
+~~~
+git@github.com:mxrold/four-card-feature-section.git
+~~~
 
 _Not sure how to clone a project? **[Check this](https://github.com/mxrold/how-to-clone-a-repository-in-github/blob/main/README.md)**_
 
