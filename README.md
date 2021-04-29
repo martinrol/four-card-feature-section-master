@@ -1,4 +1,3 @@
- https://mxrold.github.io/four-card-feature-section-master/
 # Four card feature section
 
 This project is a simple static landing page.
@@ -9,7 +8,7 @@ This project is a simple static landing page.
 
 ## Demo
 
-If you want to see the demo, you can visit this link. **[Demo of the project](https://mxrold.github.io/four-card-feature-section-master/)**
+If you want to see the demo, you can visit this link. **[Demo of the project](https://mxrold.github.io/four-card-feature-section/)**
 
 ## Pre requirements 📋
 
@@ -25,7 +24,7 @@ To install and run this project with ++git clone++ just type in your console and
 - Whit SSH
 `git@github.com:mxrold/four-card-feature-section.git`
 
-_Not sure how to clone a project? [https://github.com/mxrold/how-to-clone-a-repository-in-github/blob/main/README.md](Check this)_
+_Not sure how to clone a project? **[Check this](https://github.com/mxrold/how-to-clone-a-repository-in-github/blob/main/README.md)**_
 
 ## Building with 🛠️
 
@@ -33,4 +32,4 @@ _Not sure how to clone a project? [https://github.com/mxrold/how-to-clone-a-repo
 - CSS (Flexbox and Grid)
 
 ### Notes
-This project is a challenge by [https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK](Frontend Mentor).
+This project is a challenge by **[Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)**
